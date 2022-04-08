@@ -1,0 +1,732 @@
+/* HEADER */
+
+.site-top-wrapper {
+  background-color: rgba(242, 206, 218, 1);
+  width: 100%;
+  height: 120vh;
+}
+.sitenav-item {
+  list-style: none;
+  display: inline-block;
+}
+.sitenav-item + .sitenav-item {
+  margin-left: 40px;
+}
+.sitenav-link {
+  text-decoration: none;
+  font: size 15px;
+  line-height: 17.58px;
+  font-weight: 700;
+  font-family: roboto;
+  color: rgb(31, 21, 52, 0.5);
+}
+.logo {
+  vertical-align: middle;
+}
+.sitenav-list {
+  display: inline-block;
+  list-style: none;
+}
+/* HERO-LEFT */
+.upperside {
+  position: absolute;
+  width: 172;
+  height: 16px;
+  top: 285px;
+  left: 180px;
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 10%;
+  color: #0f0101;
+}
+.hero-heading {
+  position: absolute;
+  width: 665px;
+  height: 130px;
+  left: 180px;
+  top: 280px;
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57.33px;
+  line-height: 120.5%;
+  color: #0f0101;
+  opacity: 0.9;
+}
+.main-head {
+  color: rgb(204, 48, 48);
+}
+.lowerside {
+  position: absolute;
+  width: 523px;
+  height: 78px;
+  left: 180px;
+  top: 450px;
+  font-family: Hind Madurai;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0f0101;
+  opacity: 0.6;
+}
+.header-btn {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  left: 180px;
+  top: 600px;
+  background: #d23166;
+  border-radius: 5px;
+  color: white;
+}
+.main-btn {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  left: 1100px;
+  top: 25px;
+  background: #d23166;
+  border-radius: 5px;
+  color: white;
+}
+/* HERO-RIGHT */
+.hero-right {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 735.8px;
+  top: 50px;
+  transform: rotate(4.79deg);
+}
+/* LOWERSIDE OF HERO */
+.cars-img {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.bigcar-ins {
+  width: 160px;
+  height: 160px;
+  z-index: 2;
+  background-color: white;
+  padding: 1px 10px;
+}
+.small-pictures {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.pct {
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 218px;
+}
+.pct + .pct {
+  margin-left: 28px;
+}
+/* NEXT PAGE */
+.second-page {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(248, 237, 240, 1);
+}
+.heading-sugar {
+  position: absolute;
+  width: 349px;
+  height: 98.27px;
+  left: 180px;
+  top: 1150px;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+  color: #150101;
+}
+.paragraf-two {
+  position: absolute;
+  width: 442px;
+  height: 58.16px;
+  left: 180px;
+  top: 1280px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #150101;
+  opacity: 0.6;
+}
+.butt {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 180px;
+  top: 1380px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fafafa;
+  background-color: #d64374;
+}
+.right-picture {
+  position: absolute;
+  width: 655px;
+  height: 656.8px;
+  left: 580px;
+  top: 1000px;
+}
+/* THIRDPAGE */
+
+.third-page {
+  width: 100%;
+  height: 2100px;
+}
+
+.heading-two {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 61px;
+  left: 39%;
+  position: relative;
+}
+.thirdpage-link {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: roboto;
+  font-weight: 500;
+  font-style: normal;
+  color: #000000;
+}
+.ice-cream-kind{
+    list-style: none;
+    padding-left: 190px;
+}
+.thirdpage-items a:hover{
+ text-decoration: underline;
+ text-decoration-color: rgb(101, 101, 204);
+ 
+}
+
+.thirdpage-items{
+    display: inline-block;
+}
+.thirdpage-items + .thirdpage-items{
+    margin-left:70px;
+}
+/* THIRDPAGE-PICTURES */
+.con{
+    position: absolute;
+    width: 530px;
+    height: 370px;
+    left: 100px;
+    top: 1800px;   
+}
+.third-right-one{
+    top: 1800px;
+    left: 730px;
+    padding-top: 80px;
+    position: absolute;
+}
+.third-btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(214, 67, 116, 1);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.cost-one{
+    font-weight: 900;
+    font-family: Hind Madurai;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.third-btn:hover, .cost-one:hover, .old-cost:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(85, 168, 224);
+}
+
+/* PICTURE-TWO */
+.heading-sar-two{
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 900;
+    top: 2290px;
+    position: absolute;
+    left: 340px;
+}
+.third-par-two{
+color: rgba(0, 0, 0, 1);
+font-family: Roboto;
+font-weight: 100;
+font-size: 16px;
+top: 2340px;
+position: absolute;
+left: 160px;
+opacity: 0.7;
+}
+.paragraph-third{
+    opacity: 0.5;
+}
+.cost-two{
+    font-family: Hind Madurai;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+   top: 2430px;
+   left: 440px;
+   position: absolute;
+}
+.old-cost-two{
+    top: 2430px;
+    position: absolute;
+    left: 498px;
+}
+.cost-two:hover, .old-cost-two:hover{
+    text-decoration: underline;
+    text-decoration-color:  rgb(85, 168, 224);
+    cursor: pointer;
+}
+.third-btn-two{
+    position: absolute;
+    top: 2470px;
+    left: 446px;
+    width: 100px;
+    height: 40px;
+    border-radius:6px;
+    color: white;
+    background-color: rgba(214, 67, 116, 1);
+    cursor: pointer;
+}
+.third-right-two-pic{
+    top: 2180px;
+    left: 700px;
+    position: absolute;
+    width: 570px;
+    height: 370px;
+}
+
+/* THIRD-PICTURE */
+
+.third-left-three{
+ position: absolute;
+ top: 2600px;
+ left: 100px;
+ width: 570px;
+ height: 370px;
+}
+.heading-third-first{
+    top: 2700px;
+    position: absolute;
+    left: 770px;
+}
+.paragraph-third-first{
+    left: 770px;
+    position: absolute;
+    top: 2750px;
+}
+.cost-six{
+  position: absolute;
+  left: 770px;
+  top: 2830px;
+  cursor: pointer;
+}
+.old-cost-four{
+    position: absolute;
+    left: 820px;
+    top: 2830px;
+    cursor: pointer;
+}
+.third-btn-seven{
+    position: absolute;
+    left: 770px;
+    top: 2868px;
+    width:100px ;
+    height: 40px;
+  border-radius:6px;
+  background-color:rgba(214, 67, 116, 1) ;
+ cursor: pointer;
+}
+.cost-six:hover, .old-cost-four:hover, .third-btn-seven:hover{
+    text-decoration: underline;
+    text-decoration-color:  rgb(85, 168, 224);
+
+}
+
+
+/* FOURTH-PICTURE */
+
+.round-picture{
+    position: absolute;
+    left: 100px;
+    top: 3187px;
+}
+.adele-heading{
+    position: absolute;
+    left: 190px;
+    top: 3170px;
+}
+.america{
+    top: 3200px;
+    position: absolute;
+    left: 191px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.class-america{
+    text-decoration:none;
+}
+.cake-info{
+    position: absolute;
+    top: 3290px;
+    left: 100px;
+    opacity: 0.5;
+}
+.right{
+    position: absolute;
+    top: 3422px;
+    left: 100px;
+     cursor: pointer;
+}
+.boy{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 3410px;
+    border-radius:50%;
+    left: 130px;
+    cursor: pointer;
+}
+.centre-pic{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 3400px;
+    left: 200px;
+    cursor: pointer;
+}
+.girl{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 3410px;
+    left: 290px;
+    cursor: pointer;
+}
+.left{
+    top: 3422px;
+    left: 350px;
+     cursor: pointer;
+     position: absolute;
+}
+.cake-picture{
+    position: absolute;
+    cursor: pointer;
+    top: 3120px;
+    width: 720px;
+    height: 370px;
+    left: 550px;
+}
+/* UPPERSIDE OF FOOTER */
+.navbar{
+    width: 100%;
+    height: 656px;
+    background-color: rgba(242, 206, 218, 1);
+}
+.navbar-picture{
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.navbar-heading{
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 44px;
+    line-height:52px;
+    color:#000;
+    left: 490px;
+    position: absolute;
+    padding-top:60px
+}
+.navbar-par{
+    position: absolute;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height:21px
+    letter-spacing:1%;
+    padding-top:150px;
+    left:490px;
+}
+
+.press{
+    position: absolute;
+    left:490px;
+    width: 25px;
+    height: 25px;
+    padding: 12px 12px;
+    background-color: white;
+    top: 3980px;
+    cursor: pointer;
+}
+.first_par{
+    top: 3952px;
+    position: absolute;
+    left: 590px;
+    font-size: 35px;
+}
+.press-two{
+    position: absolute;
+    left:490px;
+    width: 25px;
+    height: 25px;
+    padding: 12px 12px;
+    background-color:white;
+    top: 4060px;
+    cursor: pointer;
+}
+.second_par{
+    top: 4030px;
+    position: absolute;
+    left: 590px;
+    font-size: 35px;
+}
+
+.press-third{
+    position: absolute;
+    left:490px;
+    width: 25px;
+    height: 25px;
+    padding: 12px 12px;
+    background-color:white;
+    top: 4140px;
+    cursor: pointer;
+}
+.third_par{
+    top: 4108px;
+    position: absolute;
+    left: 590px;
+    font-size: 35px;
+}
+.google-logo{
+    position: absolute;
+    top: 4210px;
+    left: 480px;
+    cursor: pointer;
+}
+.apps-logo{
+    position: absolute;
+    left: 700px;
+    top: 4204px;
+}
+
+
+.buttons-div{
+    width: 100%;
+    height: 500px;
+}
+.heading-question{
+    font-family: roboto;
+    font-weight: 550;
+    font-size: 44px;
+    line-height: 52px;
+    vertical-align: middle;
+    position: absolute;
+    padding-top:65px;
+    left: 400px;
+}
+#telephone{
+    position: absolute;
+    left: 350px;
+    top: 4600px;
+    width: 260px;
+    height: 40px;
+    border: 1px solid rgb(219, 94, 115);
+    border-radius:6px;
+}
+#question{
+    position: absolute;
+    left: 640px;
+    top: 4600px;
+    width: 260px;
+    height: 40px;
+    border: 1px solid rgb(219, 94, 115);
+    border-radius:6px;
+}
+#enter{
+    position: absolute;
+    left: 350px;
+    top: 4674px;
+    width: 430px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid rgb(219, 94, 115);
+}
+.lastone-btn{
+    position: absolute;
+    width: 60px;
+    height: 46px;
+    border-radius: 6px;
+    border: 1px solid rgb(219, 94, 115);
+    left: 786px;
+    top: 4674px;
+    background-color:rgba(214, 67, 116, 1);
+}
+
+/* FOOTER */
+.footer-div{
+    width: 100%;
+    height: 500px;
+    background-color: #0A0808;
+}
+.footer-logo{
+    left: 250px;
+    position: absolute;
+    top: 4920px;
+}
+.footer-par{
+    left: 250px;
+    position: absolute;
+    color: white;
+    top: 5050px;
+    opacity: 0.6;
+}
+.ins{
+    position: absolute;
+    cursor: pointer;
+    left: 250px;
+    color: white;
+    top: 5130px;
+    font-weight: 600;
+}
+.logo-facebook{
+    position: absolute;
+    cursor: pointer;
+    left: 250px;
+    top: 5180px;
+    width: 20px;
+    height: 20px;
+}
+.logo-twitter{
+    position: absolute;
+    cursor: pointer;
+    left: 290px;
+    top: 5180px;
+    width: 20px;
+    height: 20px;
+}
+.logo-instagram{
+    position: absolute;
+    cursor: pointer;
+    left: 330px;
+    top: 5180px;
+    width: 20px;
+    height: 20px;
+}
+.logo-linkedin{
+    position: absolute;
+    cursor: pointer;
+    left: 370px;
+    top: 5180px;
+    width: 20px;
+    height: 20px;
+}
+.footer-home{
+    list-style: none;
+    padding: 6px;
+}
+.footer-link{
+    color: white;
+    text-decoration:none;
+}
+.column-two{
+    left: 500px;
+    position: absolute;
+    top: 5010px;
+}
+/* FOOTER-SECOND-LINKS */
+.inf-link-items{
+    color: white;
+    text-decoration:none;
+}
+.inf-list-items{
+    list-style: none;
+    padding:6px;
+}
+.footer-inf-del{
+    top: 5010px;
+    left: 640px;
+    position: absolute;
+}
+.footer-email-heading{
+    position: absolute;
+    left: 900px;
+    color: white;
+    top: 4970px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.form-email{
+    position: absolute;
+    left: 900px;
+    top: 5050px;
+    }
+    .email-item{
+        width: 240px;
+        height: 50px;
+        border-radius: 6px;
+        background: transparent;
+        border: 2px solid #D23166;
+        border-right: none;
+    }
+    .sub-btn{
+        position: absolute;
+        left:1140px;
+        top: 5050px;
+        width: 120px;
+        height: 56px;
+        border:1px solid #D23166;
+        background-color: #D23166;
+        color: #FFFFFF;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        font-size: 20px;
+
+    }
+
+    .pic-paypal{
+        position: absolute;
+        left: 900px;
+        width: 35px;
+        height: 35px;
+        top: 5130px;
+        cursor: pointer;
+    }
+    .mastercard{
+        position: absolute;
+        left: 950px;
+        width: 50px;
+        height: 50px;
+        top: 5122px;
+        cursor: pointer;
+    }
+    .visa{
+        position: absolute;
+        left: 1020px;
+        width: 60px;
+        height: 60px;
+        top: 5120px;
+        cursor: pointer;
+    }
